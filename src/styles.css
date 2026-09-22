@@ -1,0 +1,167 @@
+/* ========================================
+   Tailwind CSS Inspired Styles
+   Horse Race Application
+   ======================================== */
+
+/* Root Pane - bg-gray-900 */
+.root-pane {
+    -fx-background-color: #111827;
+}
+
+/* Header */
+.header {
+    -fx-background-color: #1F2937;
+    -fx-border-color: #374151;
+    -fx-border-width: 0 0 2 0;
+}
+
+.title {
+    -fx-text-fill: #F9FAFB;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-font-family: "System Bold";
+}
+
+.status-label {
+    -fx-text-fill: #9CA3AF;
+    -fx-font-size: 14px;
+    -fx-font-family: "System";
+}
+
+.winner-label {
+    -fx-text-fill: #FBBF24;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-font-family: "System Bold";
+}
+
+/* Race Track */
+.race-track {
+    -fx-background-color: #1F2937;
+}
+
+/* Horse Box */
+.horse-box {
+    -fx-background-color: #374151;
+    -fx-background-radius: 12;
+    -fx-padding: 12 18 12 18;
+    -fx-border-color: #4B5563;
+    -fx-border-radius: 12;
+    -fx-border-width: 1;
+}
+
+.horse-name {
+    -fx-text-fill: #F9FAFB;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-font-family: "System Bold";
+}
+
+.percent-label {
+    -fx-text-fill: #D1D5DB;
+    -fx-font-size: 14px;
+    -fx-font-family: "System";
+    -fx-font-weight: bold;
+}
+
+/* Progress Bars Base */
+.horse-progress {
+    -fx-background-radius: 8;
+    -fx-background-insets: 0;
+}
+
+.horse-progress .track {
+    -fx-background-color: #111827;
+    -fx-background-radius: 8;
+}
+
+.horse-progress .bar {
+    -fx-background-radius: 8;
+    -fx-background-insets: 0;
+    -fx-padding: 3;
+}
+
+/* Blue - #3B82F6 */
+.track-blue .bar {
+    -fx-background-color: linear-gradient(to right, #2563EB, #60A5FA);
+}
+
+/* Red - #EF4444 */
+.track-red .bar {
+    -fx-background-color: linear-gradient(to right, #DC2626, #F87171);
+}
+
+/* Green - #10B981 */
+.track-green .bar {
+    -fx-background-color: linear-gradient(to right, #059669, #34D399);
+}
+
+/* Yellow - #F59E0B */
+.track-yellow .bar {
+    -fx-background-color: linear-gradient(to right, #D97706, #FBBF24);
+}
+
+/* Controls */
+.controls {
+    -fx-background-color: #1F2937;
+    -fx-border-color: #374151;
+    -fx-border-width: 2 0 0 0;
+}
+
+/* Start Button - bg-green-600 */
+.btn-start {
+    -fx-background-color: #059669;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-font-family: "System Bold";
+    -fx-background-radius: 8;
+    -fx-padding: 10 40 10 40;
+    -fx-cursor: hand;
+    -fx-border-color: #047857;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+}
+
+.btn-start:hover {
+    -fx-background-color: #047857;
+}
+
+.btn-start:pressed {
+    -fx-background-color: #065F46;
+}
+
+.btn-start:disabled {
+    -fx-background-color: #374151;
+    -fx-text-fill: #6B7280;
+    -fx-border-color: #4B5563;
+}
+
+/* Reset Button - bg-gray-600 */
+.btn-reset {
+    -fx-background-color: #4B5563;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-font-family: "System Bold";
+    -fx-background-radius: 8;
+    -fx-padding: 10 40 10 40;
+    -fx-cursor: hand;
+    -fx-border-color: #374151;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+}
+
+.btn-reset:hover {
+    -fx-background-color: #374151;
+}
+
+.btn-reset:pressed {
+    -fx-background-color: #1F2937;
+}
+
+.btn-reset:disabled {
+    -fx-background-color: #374151;
+    -fx-text-fill: #6B7280;
+    -fx-border-color: #4B5563;
+}

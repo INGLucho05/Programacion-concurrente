@@ -1,0 +1,7 @@
+target/
+node_modules/
+out/
+libs/
+*.class
+*.md
+!data.md

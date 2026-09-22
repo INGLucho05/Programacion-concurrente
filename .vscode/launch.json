@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HorseRaceApp",
+            "request": "launch",
+            "mainClass": "HorseRaceApp",
+            "projectName": "PConcurrente_38c54b49"
+        },
+        {
+            "type": "java",
+            "name": "Carrera de Caballos",
+            "request": "launch",
+            "mainClass": "HorseRaceApp",
+            "projectName": "PConcurrente",
+            "vmArgs": "--module-path \"${workspaceFolder}/libs/javafx-sdk-23.0.2/lib\" --add-modules javafx.controls,javafx.fxml",
+            "console": "internalConsole"
+        }
+    ]
+}
